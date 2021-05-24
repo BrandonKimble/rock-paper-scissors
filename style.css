@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}    
+body {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 50px;
+    margin: 20px;
+}
+.btns {
+    display: block;
+    margin: 0 auto;
+}
+.result {
+    display: block;
+    margin: 10px auto;
+}
+.score {
+    display: block;
+    margin: 1px, auto;
+}
