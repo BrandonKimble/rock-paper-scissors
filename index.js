@@ -50,10 +50,6 @@ function keepScore(num) {
     }
 }
 
-
-
-
-
 const buttons = document.querySelectorAll('button');
 const body = document.querySelector('body');
 const result = document.createElement('div');
@@ -66,7 +62,6 @@ result.appendChild(resultText);
 score.appendChild(scoreNum);
 body.appendChild(result);
 body.appendChild(score);
-
 
 let playerScore = 0;
 let computerScore = 0;
